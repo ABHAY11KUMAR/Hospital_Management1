@@ -1,6 +1,8 @@
 import mongoose from "mongoose";
 import validator from "validator";
 
+
+
 const messageSchema = new mongoose.Schema({
     firstName: {
         type: String,
